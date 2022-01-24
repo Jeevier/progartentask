@@ -14,7 +14,7 @@ const App = () => {
     return lastWeek.toISOString().slice(0, 10);
   };
 
-  useEffect(async () => {
+  useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
       const date = getDate();
